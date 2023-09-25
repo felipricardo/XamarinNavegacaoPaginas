@@ -19,6 +19,7 @@ namespace XamarinNavegacaoPaginas
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
+            //await Navigation.PopToRootAsync(); volta para a pagina raiz
             await Navigation.PopAsync();
         }
     }
