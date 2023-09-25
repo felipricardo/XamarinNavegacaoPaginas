@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinNavegacaoPaginas.MainPage">
+
+    <StackLayout>
+        <Label Text="Xamarin Forms - Navegação Hierarquica entre páginas."
+        HorizontalOptions="Center"
+        VerticalOptions="CenterAndExpand"/>
+        <Image Source="jake"/>
+        <Button Text="Pagina de exemplo" Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
